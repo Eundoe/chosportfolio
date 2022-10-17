@@ -228,19 +228,19 @@ header{
   line-height: 22px;
   margin-bottom: 36px;
 }
-.workwrap>nav{
+.workwrap>div.worknav{
   width: 100%;
-  margin-bottom: 42px;
 }
-.workwrap>nav>ul{
+.workwrap>div.worknav>ul{
   display: flex;
   justify-content: center;
 }
-.workwrap>nav>ul>li{
+.workwrap>div.worknav>ul>li{
   padding: 0px 15px;
   border-left: 2px solid #000;
+  margin-bottom: 20px;
 }
-.workwrap>nav>ul>li:first-child{
+.workwrap>div.worknav>ul>li:first-child{
   border: none;
 }
 .workshow{
@@ -402,4 +402,4 @@ border-radius: 4px;
   .sns>ul>li:first-child{
     border: none;
   }
-
+  
